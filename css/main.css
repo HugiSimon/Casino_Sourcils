@@ -8,11 +8,12 @@ body {
 
 #titre{
     background-color: rgb(233, 112, 112);
+    text-align: center;
 }
 
 #titre h1{
-    margin: 0px;
-    padding-top: 10px;
+    margin: -5px;
+    padding-top: 0px;
 }
 
 #titre h4{
@@ -68,6 +69,20 @@ main{
 
 iframe{
     margin-top: 100px;
-    height: 300px;
-    width: 700px;
+    margin-bottom: 100px;
+    aspect-ratio: 16/9;
+    width: 1200px;
+}
+
+@media screen and (max-width: 1500px) {
+    iframe{
+        width: 80%;
+    }
+}
+
+footer{
+    background-color: rgb(233, 112, 112);
+    padding: 10px 10px 10px 10px;
+    display: block;
+    bottom: 0px;
 }
