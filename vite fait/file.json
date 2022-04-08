@@ -1,5 +1,10 @@
 {
 	"monJson": {
-		"salut": 15
+		"Chapeau": 7,
+		"Cheveux": 11,
+		"Yeux": 6,
+		"Cadre": 3,
+		"Vbucks": 700
 	}
+	
 }

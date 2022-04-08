@@ -3566,8 +3566,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Acts.SetHash,
 		C3.Plugins.Json.Exps.ToCompactString,
 		C3.Plugins.Browser.Acts.ConsoleLog,
-		C3.Plugins.Json.Exps.ToBeautifiedString,
-		C3.Plugins.System.Acts.AddVar
+		C3.Plugins.Json.Exps.ToBeautifiedString
 	];
 };
 self.C3_JsPropNameTable = [
@@ -3676,16 +3675,23 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
-		() => "salut",
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => v0.GetValue();
-		},
+		() => "Chapeau",
+		() => 7,
+		() => "Cheveux",
+		() => 11,
+		() => "Yeux",
+		() => 6,
+		() => "Cadre",
+		() => 3,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
 		},
-		() => 1
+		() => "Vbucks",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => v0.GetValue();
+		}
 ];
 
 
