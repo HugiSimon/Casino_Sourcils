@@ -24,7 +24,21 @@
     </header>
 
     <main>
-        <iframe src="./vite fait/index.html" scrolling="no" id="jeu"></iframe>
+        <div id="jason">
+            <section id="section1">
+                <img src="./img/vbucks.png" alt="vbucks" id="vbucksImg">
+                <p id="vbucks">700</p>
+                <input type="button" onclick="afficHash()" value="Actualiser">
+            </section>
+            <section>
+                <img class="igm" src="./img/peau.png" alt="Peau">
+                <img class="igm" src="./img/Yeux-Vert.png" alt="Yeux">
+                <img class="igm" src="./img/Cheveux-1.png" alt="Coiffure">
+                <img class="igm" src="./img/Chapeau1.png" alt="Chapeau">
+                <img class="igm" src="./img/Cadre1.png" alt="Cadre">                
+            </section>
+        </div>
+        <iframe src="./jeu/index.html" scrolling="no" id="jeu" onblur="afficHash()"></iframe>
     </main>
 
     <footer>

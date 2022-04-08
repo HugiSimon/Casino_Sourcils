@@ -37,3 +37,8 @@ html, body, canvas {
 }
 
 
+@font-face {
+	font-family: 'casino.shadow-regular';
+	src: url('fonts/casino.shadow-regular.ttf') format('truetype');
+}
+

@@ -27,7 +27,10 @@ body {
     #titre h4{
         margin-top: -10px;
         padding-left: 10px;
-    }    
+    }
+    .igm{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 820px) {
@@ -38,7 +41,10 @@ body {
         margin-top: -20px;
         padding-left: 10px;
         font-size: 25px;
-    }    
+    }
+    .igm{
+        top: 240px;
+    }
 }
 
 nav{
@@ -68,7 +74,6 @@ main{
 }
 
 iframe{
-    margin-top: 100px;
     margin-bottom: 100px;
     aspect-ratio: 16/9;
     width: 1200px;
@@ -85,4 +90,36 @@ footer{
     padding: 10px 10px 10px 10px;
     display: block;
     bottom: 0px;
+}
+
+#jason{
+    margin-top: 100px;
+    display: block;
+
+    color: white;
+}
+
+#jason section{
+    display: inline-block;
+    width: 100px;
+}
+
+#section1{
+    margin: 0% 54% 0% 00% ;
+}
+
+#vbucks{
+    margin: 0px 0px 10px 10px;
+    display: inline-block;
+}
+
+#vbucksImg{
+    height: 35px;
+    margin: -10px;
+}
+
+.igm{
+    position: absolute;
+    right: 18%;
+    top: 230px;
 }
